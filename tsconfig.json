@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "declarationDir": "./lib",
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ],
+        "sourceMap": true,
+        "allowJs": false,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "rootDirs": [
+            "src",
+            "stories"
+        ],
+        "baseUrl": ".",
+        "pretty": false,
+        "forceConsistentCasingInFileNames": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "typeRoots": [
+            "./**/",
+        ],
+        "paths": {
+            "~/*": [
+                "src/*"
+            ],
+        }
+    },
+    "include": [
+        "./**/*",
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "testApp",
+        "stories",
+        "lib",
+    ]
+}
